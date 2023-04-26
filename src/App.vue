@@ -4,7 +4,7 @@
             <div class="col text-center">
                 <h1 class="text-light">Ulik Space Factory</h1>
             </div>
-            <div class="col text-center"><img id="loadLogo" style="width:25%; height:auto;" src="https://ulikgames.github.io/Space-Factory/whiteLogo.png" alt="Game logo" /></div>
+            <div class="col text-center"><img id="loadLogo" style="width:25%; height:auto;" src="https://space-factory-six.vercel.app/whiteLogo.png" alt="Game logo" /></div>
             <div class="col text-center">
                 <h5 class="text-light">Reticulating Splines...</h5>
             </div>
@@ -14,7 +14,7 @@
         <div id="sidebar" :class="{ 'open':sidebarOpen }" role="navigation">
             <top-header class="px-2">
                 <div class="col-auto">
-                    <img src="https://ulikgames.github.io/Space-Factory/whiteLogo.png" width="42" height="42" alt="Game logo" />
+                    <img src="https://space-factory-six.vercel.app/whiteLogo.png" width="42" height="42" alt="Game logo" />
                 </div>
                 <div class="col text-truncate px-0">
                     <span class="h5 text-light mb-0">{{ companyName }} Factory</span>
@@ -127,7 +127,7 @@
                         <div v-if="hasNotif" class="position-absolute top-0 end-0" style="line-height:1">
                             <i class="fas fa-fw fa-certificate text-success small"></i>
                         </div>
-                        <img src="https://ulikgames.github.io/Space-Factory/whiteLogo.png" width="36" height="36" alt="Game logo" />
+                        <img src="https://space-factory-six.vercel.app/whiteLogo.png" width="36" height="36" alt="Game logo" />
                     </button>
                 </div>
                 <div class="col-auto ms-auto">
